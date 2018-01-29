@@ -1,0 +1,244 @@
+﻿*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body, html
+{
+	/*background-color: #ECECEC;*/
+    height: 100%;
+}
+
+#Wrapper
+{
+    font-family: Calibri;
+	padding-top: 50px;
+	margin: auto 56px auto 636px;
+	width: 30%;
+    min-height: 85%;
+}
+#Header
+{
+    padding-top: 20px;
+    text-align: center;
+	font-size: 30px;
+}
+#loginContent
+{
+	padding-top: 60px;
+}
+    #loginContentLeft
+    {
+        float: left;
+        width: 53%;
+        height: 400px;
+        border-right-style: solid;
+        border-right-color: inherit;
+        border-right-width: 1px;
+}
+    #loginContentRight
+    {
+        float: left;
+        width: 46%;
+        height: 400px;
+    }
+
+#mainContent
+{
+    padding-top: 60px;
+    width: 900px;
+}
+    #mainContentUpload
+    {
+        float: left;
+        position: relative;
+        width: 30%;
+        height: 400px;
+        border-right-style: solid;
+        border-right-color: inherit;
+        border-right-width: 1px;
+    }
+    #mainContentMyFiles
+    {
+        margin-left: 10px;
+        position: relative;
+        float: left;
+        width: 68%;
+        height: 300px;
+    }
+        #fileBrowser
+        {
+            position: absolute;
+            margin-top: 20px;
+            width: 100%;
+        }
+            #folderSelection
+            {
+                position: relative;
+                float: left;
+                width: 30%;
+            }
+                #folderSelectionExisting
+                {
+                    margin: 0;
+                    padding: 0;
+                }
+                #mainContentCreateFolder
+                {
+                    position: absolute;
+                    margin-top: 20px;
+                    height: 100px;
+                    width: 100%;
+                }
+                    .folderGraphics
+                    {
+                        display: inline;
+                        margin-left: 5px;
+                        cursor: pointer;
+                        cursor: hand;
+                    }
+                    .folderGraphics p
+                    {
+                        font-size: 18px;
+                        display: inline;
+                        padding-left: 5px;
+                    }
+                    .folderGraphicsActive
+                    {
+                        display: inline;
+                        background-color: lightcyan;
+                        margin-left: 5px;
+                    }
+                    .folderGraphicsActive p
+                    {
+                        font-size: 18px;
+                        display: inline;
+                        padding-left: 5px;
+                    }
+            #fileSelection
+            {
+                position: relative;
+                float: right;
+                width: 70%;
+            }
+            #fileTable td
+            {
+                padding-right: 3px;
+            }
+
+
+.clearFloat
+{
+}
+
+#dropzoneUpload
+{
+    border: 2px dashed;
+    margin-top: 25px;
+    border-radius: 20px;
+    position: relative;
+    height: 100px;
+    width: 250px;
+}
+    #dropzoneUpload p
+    {
+        font-family: Calibri;
+        margin-top: 25px;
+    }
+    #btnUpload
+    {
+        margin-top: 25px;
+        border-radius: 5px;
+        border: 1px solid black;
+        padding: 5px 5px;
+        font-size: 16px;
+    }
+/* #####################
+		DESIGN
+##################### */
+
+.loginTableTop
+{
+	border-bottom: 1px solid;
+}
+.loginTableText
+{
+	text-align: right;
+}
+.spacingFix
+{
+    height: 10px;
+}
+.loginFormButton
+{
+    height: 20px;
+    width: 50px;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.leftEventLabelSuccess
+{
+    color: lightgreen;
+    font-size: 20px;
+}
+.leftEventLabelFail
+{
+    color: red;
+    font-size: 20px;
+}
+.footer {
+        position: absolute;
+        height: 96px;
+        width: 100%;
+        margin-bottom: 0px;
+        background-color: #333333;
+    }
+
+.copyright {
+        position: absolute;
+        width: 100%;
+        color: #fff;
+        line-height: 40px;
+        font-size: 0.7em;
+        text-align: center;
+        bottom:0;
+    }
+
+/* #####################
+    DESIGN Registration
+##################### */
+.registrationTableTop
+{
+	border-bottom: 1px solid;
+}
+.registrationTableText
+{
+	text-align: right;
+}
+.registrationFormButton
+{
+    height: 20px;
+    width: 70px;
+    cursor: pointer;
+    cursor: hand;
+}
+.rightEventLabel
+{
+    color: red;
+    font-size: 20px;
+}
+body 
+{
+    font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    background-image:url('Images/server_inst_eyes_open.gif');
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-position: 380px 170px;
+    background-size: 26%;
+}
